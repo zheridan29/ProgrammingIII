@@ -1,0 +1,19 @@
+git init = to initialize a new local repo
+git status = to see the current state of the project
+git add *files* = add files or source codes to the staging area
+git commit -m "Description" = to add files from the staging area to the local repo
+git log = browse commit history
+git remote add *remote name* *url https address of git repo* = sets the remote destination of our repo
+git remote add origin https
+git push -u origin master = saves the local repo to github repo
+git diff HEAD = to look for changes in the files
+git diff --staged = to look for differences in the staging area
+git reset octofamily/octodog.txt = reset to unstage files
+git reset *files to be reset even inside the folder*
+git checkout --<target> = changed back to how they were at the last commit
+git branch clean_up = git branch <name> = to create a branch
+git checkout <branch> = 
+git rm <files> = to remove files in the repo
+git merge <branch> = merge the files from the branch to master
+git branch -d <branchname> = delete branch
+git push = to push 
